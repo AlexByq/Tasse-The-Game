@@ -1,6 +1,5 @@
 var clicks = 0;
 
-
 function klick() {
         clicks += 1;
         document.getElementById("clicks").innerHTML = clicks;
@@ -23,10 +22,10 @@ fail.volume = 1;
 
 
 $(document).ready(function(){
-    $(".goodman").click(function(){
+    $(".animatedblyat").on("click",".goodman", function(){
         $(this).remove();
     });
-    $(".goodman").click(function(){
+    $(".animatedblyat").on("click",".goodman", function(){
 switch(clicks)
 {
 case 5:
@@ -86,7 +85,7 @@ if(document.querySelectorAll('.goodman').length == 0){
 });
 
 
-$(".kappa").click(function(){
+$(".animatedkappa").on("click",".kappa", function(){
         respawn = true;
         while(respawn == true && document.querySelectorAll('.goodman').length < 69){
         blyatDiv();
@@ -94,7 +93,7 @@ $(".kappa").click(function(){
             respawn = false;
     }
 }
-    clicks = 0;
-    fail.play();
+clicks = 0;
+fail.play();
    });
 });

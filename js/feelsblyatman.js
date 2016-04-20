@@ -96,7 +96,7 @@ function kappaDiv() {
 }
 function blyatDiv() {
     var $div = $("<a href='#' onclick='klick()' class='goodman'>");
-    $(".animatedDivs").append($div);
+    $(".animatedblyat").append($div);
     animateDiv();
 
     function animateDiv() {
