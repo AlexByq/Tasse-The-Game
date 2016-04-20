@@ -86,12 +86,10 @@ if(document.querySelectorAll('.goodman').length == 0){
 });
 
 
-
-
 $(".kappa").click(function(){
         respawn = true;
         while(respawn == true && document.querySelectorAll('.goodman').length < 69){
-        newDiv();
+        blyatDiv();
         if(document.querySelectorAll('.goodman').length == 69){
             respawn = false;
     }
