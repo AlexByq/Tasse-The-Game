@@ -1,0 +1,43 @@
+html,body{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+.text-center{
+	text-align:center;
+}
+	
+.text{
+	font-size:42px;
+	position:relative;
+	z-index:2;
+}
+
+a {
+	display: block;
+}
+
+a.goodman {
+    width: 112px;
+    height:98px;
+    background:url(https://i.imgur.com/RnL0vXY.png);
+    background-repeat:no-repeat;
+    position:fixed;
+	z-index:1;
+}
+
+.kappa {
+	width: 170px;
+	height: 200px;
+    background:url(../img/kappa.png);
+    background-repeat:no-repeat;
+    position:fixed;
+	z-index:1;
+}
